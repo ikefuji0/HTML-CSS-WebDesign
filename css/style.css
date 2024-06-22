@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+body {
+    background-image: url(../images/main-bg.jpg);
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+
+}
+
+.header-logo img {
+    height: 50px;
+}
+
+nav {
+    /* background-color: #000; */
+    width: 300px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav li {
+    list-style-type: none;
+}
+
+main {
+    text-align: center;
+}
+
+p {
+    padding: 50px 0;
+}
+
+.button {
+    display: inline-block;
+    background-color: aqua;
+    padding: 10px;
+    border-radius: 5px;
+}
+
