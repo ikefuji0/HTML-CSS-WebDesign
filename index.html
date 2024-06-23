@@ -1,33 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="jp">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <meta >
-    <link rel="stylesheet" href="https://unpkg.com/modern-css-reset/dist/reset.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Philosopher">
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
-    <title>WBC Cafe</title>
+    <link rel="icon" href="./images/favicon.png" type="image/png">
+
+    <title>WCB Cafe</title>
 </head>
 <body>
-    <header class="container">
-        <div class="header-logo">
-            <img src="./images/logo.svg" alt="ヘッダーロゴ">
-        </div>
-        <nav>
-            <ul>
-                <li>NEWS</li>
-                <li>MENU</li>
-                <li>CONTACT</li>
-            </ul>
-        </nav>
-    </header>
+    <div id="home" class="big-bg">
+        <header class="page-header wrapper">
+            <h1><a href="index.html"><img src="./images/logo.svg" alt="カフェホーム" class="logo"></a></h1>
+            <nav>
+                <ul class="main-nav">
+                    <li><a href="news.html">News</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
 
-    <main class="container">
-        <h1>We'll Make Your Day</h1>
-        <p>オシャレなカフェで癒されてみませんか？無添加の食材で体の中からリフレッシュ。</p>
-        <a class="button">メニューを見る</a>
-    </main>
+        <div class="home-content wrapper">
+            <h2 class="page-title">We'll Make Your Day</h2>
+            <p>オシャレなカフェで癒されてみませんか？無添加の食材で体の中からリフレッシュ。</p>
+            <a href="menu.html" class="button">メニューを見る</a>
+        </div>
+    </div>
 </body>
 </html>
